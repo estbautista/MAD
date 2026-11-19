@@ -1,0 +1,11 @@
+model:
+  context_length: 30
+
+splitting:
+  train_test_ratio: 0.7
+  window_size: 600
+  window_shift: 600
+
+paths:
+  dataset: /data/example.csv
+  score_file: /output/scores.pkl
